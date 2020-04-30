@@ -15,7 +15,7 @@ app.get('/employee/:name',function(req,res){
   res.send('Employee requested is'+req.params.name);
 });
 
-app.get('/manager',function(req,res){
+app.get('/managers',function(req,res){
   res.send('Manager requested is '+req.query.name);
 });
 app.listen(3000);
